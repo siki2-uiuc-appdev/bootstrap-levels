@@ -1,3 +1,14 @@
+:root {
+  --primary-color: #0d6efd;
+  --secondary-color: #6c757c;
+  --success-color: #208754;
+  --danger-color: #dc3545;
+  --warning-color: #fdc109;
+  --info-color: #2fcaf0;
+
+}
+
+
 html, body {
   height: 100%;
   margin: 0;
@@ -8,4 +19,21 @@ html, body {
   min-height: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.button {
+  border-radius: 5px;
+  color: white;
+  padding: 1rem;
+  box-shadow: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #0b5ed7;
+}
+
+.primary-color {
+  border: 1px var(--primary-color) solid;
+  background-color: var(--primary-color);
 }
